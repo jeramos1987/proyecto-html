@@ -1,0 +1,55 @@
+.card {
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    
+
+}
+
+.card-imagen {
+    width: 90%;
+    height: 200px;
+  
+}
+
+.card-cuerpo {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-titulo {
+    margin-top: 20px;
+    color: #dd2e44;
+    font-size: x-large;
+    width: auto;
+}
+
+.card-precio {
+    
+    padding: 10px 0;
+    color: green;
+    font-size: x-large;
+    width: auto;
+}
+
+.card-whatsapp {
+    background-color:whitesmoke;
+    padding: 10px;
+    color: black;
+    border-radius: 50px;
+    font-size: 1.2em;
+    
+}
+
+.card-whatsapp:hover {
+
+    background: green;
+    color: white;
+
+}

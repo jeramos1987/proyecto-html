@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+   
+  color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;  
+    justify-content:space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header>img {
+    width: 20%;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav>a{
+    
+    padding: 10px;
+    color: #dd2e44;
+    font-size: x-large;
+    
+    text-decoration: none
+}
+
+nav>a:hover{
+    
+    padding: 10px;
+    color: white;
+    background: #dd2e44;
+    font-size: x-large;
+    border-bottom: #dd2e44 solid;
+    text-decoration: none
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.quienes-somos {
+    text-align: center;
+
+}
+
+.quienes-somos>h2 {
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+.quienes-somos>p {
+    font-size: 2em;
+    margin: 40px;
+}
+
+.video {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: url(../img/footer.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+
+}
+
+.video>div {
+    width: 50%;
+}
+
+.banner-inferior{
+    margin-top: 20px;
+}
+.banner-inferior>img {
+
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: url(../img/footer.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color: white;
+
+  display:flex;
+
+  
+  font-size: 1em;
+
+}
+
+section {
+    margin: 40px;
+}
+
+section>img {
+    color: white;
+}
